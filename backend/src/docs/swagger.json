@@ -1,0 +1,408 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "BlueLink Brazil API",
+    "version": "1.0.0",
+    "description": "API to interact with Hyundai's BlueLink services in Brazil."
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "description": "Local server"
+    }
+  ],
+  "paths": {
+    "/auth/login": {
+      "post": {
+        "summary": "Authenticate user",
+        "description": "Log in using email and password to obtain access and refresh tokens.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string",
+                    "example": "user@example.com"
+                  },
+                  "password": {
+                    "type": "string",
+                    "example": "securepassword"
+                  }
+                },
+                "required": ["email", "password"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Authentication successful",
+            "content": {
+              "application/json": {
+                "example": {
+                  "accessToken": "eyJhb...",
+                  "refreshToken": "eyJhb...",
+                  "deviceId": "1db33615-b2a1-40af-905c-f88f459691b0"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation failed",
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": true,
+                  "message": "Validation failed",
+                  "details": [
+                    {
+                      "field": "email",
+                      "message": "Invalid email address."
+                    },
+                    {
+                      "field": "password",
+                      "message": "Password must be at least 8 characters."
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": true,
+                  "message": "Internal Server Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/pin": {
+      "put": {
+        "summary": "Submit PIN",
+        "description": "Validate PIN and obtain control token.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "accessToken": {
+                    "type": "string",
+                    "example": "eyJhb..."
+                  },
+                  "pin": {
+                    "type": "string",
+                    "example": "1234"
+                  },
+                  "deviceId": {
+                    "type": "string",
+                    "example": "1db33615-b2a1-40af-905c-f88f459691b0"
+                  }
+                },
+                "required": ["accessToken", "pin", "deviceId"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "PIN validated successfully",
+            "content": {
+              "application/json": {
+                "example": {
+                  "controlToken": "eyJhb..."
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation failed",
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": true,
+                  "message": "Validation failed",
+                  "details": [
+                    {
+                      "field": "accessToken",
+                      "message": "Access token is required."
+                    },
+                    {
+                      "field": "pin",
+                      "message": "PIN is required."
+                    },
+                    {
+                      "field": "deviceId",
+                      "message": "Device ID is required."
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": true,
+                  "message": "Internal Server Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/vehicle/get-vehicles": {
+      "post": {
+        "summary": "Retrieve vehicles",
+        "description": "Fetch all registered vehicles for the authenticated user.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "accessToken": {
+                    "type": "string",
+                    "example": "eyJhb..."
+                  },
+                  "deviceId": {
+                    "type": "string",
+                    "example": "1db33615-b2a1-40af-905c-f88f459691b0"
+                  }
+                },
+                "required": ["accessToken", "deviceId"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Vehicles retrieved successfully",
+            "content": {
+              "application/json": {
+                "example": {
+                  "vehicles": [
+                    {
+                      "vin": "9BHPC81BBRP097257",
+                      "vehicleId": "620bcce7-085d-48ce-8557-913cd8cae0e3",
+                      "vehicleName": "Creta",
+                      "type": "GN",
+                      "nickname": "Creta",
+                      "year": "2024"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation failed",
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": true,
+                  "message": "Validation failed",
+                  "details": [
+                    {
+                      "field": "accessToken",
+                      "message": "Access token is required."
+                    },
+                    {
+                      "field": "deviceId",
+                      "message": "Device ID is required."
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": true,
+                  "message": "Internal Server Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/vehicle/control-door": {
+      "post": {
+        "summary": "Control vehicle door",
+        "description": "Open or close the vehicle door.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "accessToken": {
+                    "type": "string",
+                    "example": "eyJhb..."
+                  },
+                  "vehicleId": {
+                    "type": "string",
+                    "example": "620bcce7-085d-48ce-8557-913cd8cae0e3"
+                  },
+                  "action": {
+                    "type": "string",
+                    "enum": ["open", "close"],
+                    "example": "open"
+                  },
+                  "deviceId": {
+                    "type": "string",
+                    "example": "1db33615-b2a1-40af-905c-f88f459691b0"
+                  }
+                },
+                "required": ["accessToken", "vehicleId", "action", "deviceId"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Door action successful",
+            "content": {
+              "application/json": {
+                "example": {
+                  "message": "Door open successfully"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation failed",
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": true,
+                  "message": "Validation failed",
+                  "details": [
+                    {
+                      "field": "accessToken",
+                      "message": "Access token is required."
+                    },
+                    {
+                      "field": "vehicleId",
+                      "message": "Vehicle ID is required."
+                    },
+                    {
+                      "field": "action",
+                      "message": "Action must be 'open' or 'close'."
+                    },
+                    {
+                      "field": "deviceId",
+                      "message": "Device ID is required."
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": true,
+                  "message": "Internal Server Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/vehicle/{vehicleId}/status": {
+      "get": {
+        "summary": "Get vehicle status",
+        "description": "Fetch the status of the vehicle's door lock.",
+        "parameters": [
+          {
+            "name": "vehicleId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "2ff98932-ebf0-4f2c-a6db-18c1e94b149a"
+            },
+            "description": "The vehicle ID to fetch the status of"
+          },
+          {
+            "name": "accessToken",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "your-access-token"
+            },
+            "description": "Access token for authorization"
+          },
+          {
+            "name": "deviceId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "your-device-id"
+            },
+            "description": "Device ID for the request"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Vehicle door status fetched successfully",
+            "content": {
+              "application/json": {
+                "example": {
+                  "doorLock": true
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request",
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": true,
+                  "message": "Invalid parameters"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "example": {
+                  "error": true,
+                  "message": "Failed to fetch vehicle status"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

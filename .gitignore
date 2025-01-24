@@ -1,0 +1,69 @@
+# Xcode
+.DS_Store
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.xcuserstate
+*.xcworkspacedata
+
+# Build artifacts
+build/
+DerivedData/
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+Package.pins
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# Temporary files
+*.tmp
+*.temp
+
+# Generated files
+*.plist
+*.hmap
+*.ipa
+*.dSYM
+*.bcsymbolmap
+
+# Logs
+*.log
+*.tlog
+
+# Coverage
+*.profdata
+*.gcda
+*.gcno
+
+# Xcode Server
+.xccrashpoint/
+.xcreports/
+
+# IDEs
+.idea/
+.vscode/
+
+# macOS files
+Icon?
+.Trashes
+
+# NodeJS
+node_modules

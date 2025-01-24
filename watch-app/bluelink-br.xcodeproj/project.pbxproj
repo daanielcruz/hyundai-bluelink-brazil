@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AA6D9402D435B7700450B6C /* bluelink-br Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5AA6D93F2D435B7700450B6C /* bluelink-br Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AA6D92A2D435B7700450B6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA6D9112D435B7500450B6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA6D9182D435B7500450B6C;
+			remoteInfo = "bluelink-br";
+		};
+		5AA6D9342D435B7700450B6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA6D9112D435B7500450B6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA6D9182D435B7500450B6C;
+			remoteInfo = "bluelink-br";
+		};
+		5AA6D9412D435B7700450B6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA6D9112D435B7500450B6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA6D93E2D435B7700450B6C;
+			remoteInfo = "bluelink-br Watch App";
+		};
+		5AA6D9522D435B7800450B6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA6D9112D435B7500450B6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA6D93E2D435B7700450B6C;
+			remoteInfo = "bluelink-br Watch App";
+		};
+		5AA6D95C2D435B7800450B6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA6D9112D435B7500450B6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA6D93E2D435B7700450B6C;
+			remoteInfo = "bluelink-br Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5AA6D9682D435B7800450B6C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5AA6D9402D435B7700450B6C /* bluelink-br Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5AA6D9192D435B7500450B6C /* bluelink-br.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bluelink-br.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA6D9292D435B7700450B6C /* bluelink-brTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bluelink-brTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA6D9332D435B7700450B6C /* bluelink-brUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bluelink-brUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA6D93F2D435B7700450B6C /* bluelink-br Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bluelink-br Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA6D9512D435B7800450B6C /* bluelink-br Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bluelink-br Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA6D95B2D435B7800450B6C /* bluelink-br Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bluelink-br Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5AA6D91B2D435B7500450B6C /* bluelink-br */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "bluelink-br";
+			sourceTree = "<group>";
+		};
+		5AA6D92C2D435B7700450B6C /* bluelink-brTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "bluelink-brTests";
+			sourceTree = "<group>";
+		};
+		5AA6D9362D435B7700450B6C /* bluelink-brUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "bluelink-brUITests";
+			sourceTree = "<group>";
+		};
+		5AA6D9432D435B7700450B6C /* bluelink-br Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "bluelink-br Watch App";
+			sourceTree = "<group>";
+		};
+		5AA6D9542D435B7800450B6C /* bluelink-br Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "bluelink-br Watch AppTests";
+			sourceTree = "<group>";
+		};
+		5AA6D95E2D435B7800450B6C /* bluelink-br Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "bluelink-br Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AA6D9162D435B7500450B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA6D9262D435B7700450B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA6D9302D435B7700450B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA6D93C2D435B7700450B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA6D94E2D435B7800450B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA6D9582D435B7800450B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AA6D9102D435B7500450B6C = {
+			isa = PBXGroup;
+			children = (
+				5AA6D91B2D435B7500450B6C /* bluelink-br */,
+				5AA6D92C2D435B7700450B6C /* bluelink-brTests */,
+				5AA6D9362D435B7700450B6C /* bluelink-brUITests */,
+				5AA6D9432D435B7700450B6C /* bluelink-br Watch App */,
+				5AA6D9542D435B7800450B6C /* bluelink-br Watch AppTests */,
+				5AA6D95E2D435B7800450B6C /* bluelink-br Watch AppUITests */,
+				5AA6D91A2D435B7500450B6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AA6D91A2D435B7500450B6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AA6D9192D435B7500450B6C /* bluelink-br.app */,
+				5AA6D9292D435B7700450B6C /* bluelink-brTests.xctest */,
+				5AA6D9332D435B7700450B6C /* bluelink-brUITests.xctest */,
+				5AA6D93F2D435B7700450B6C /* bluelink-br Watch App.app */,
+				5AA6D9512D435B7800450B6C /* bluelink-br Watch AppTests.xctest */,
+				5AA6D95B2D435B7800450B6C /* bluelink-br Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AA6D9182D435B7500450B6C /* bluelink-br */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA6D9692D435B7800450B6C /* Build configuration list for PBXNativeTarget "bluelink-br" */;
+			buildPhases = (
+				5AA6D9152D435B7500450B6C /* Sources */,
+				5AA6D9162D435B7500450B6C /* Frameworks */,
+				5AA6D9172D435B7500450B6C /* Resources */,
+				5AA6D9682D435B7800450B6C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA6D9422D435B7700450B6C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5AA6D91B2D435B7500450B6C /* bluelink-br */,
+			);
+			name = "bluelink-br";
+			packageProductDependencies = (
+			);
+			productName = "bluelink-br";
+			productReference = 5AA6D9192D435B7500450B6C /* bluelink-br.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AA6D9282D435B7700450B6C /* bluelink-brTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA6D96C2D435B7800450B6C /* Build configuration list for PBXNativeTarget "bluelink-brTests" */;
+			buildPhases = (
+				5AA6D9252D435B7700450B6C /* Sources */,
+				5AA6D9262D435B7700450B6C /* Frameworks */,
+				5AA6D9272D435B7700450B6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA6D92B2D435B7700450B6C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5AA6D92C2D435B7700450B6C /* bluelink-brTests */,
+			);
+			name = "bluelink-brTests";
+			packageProductDependencies = (
+			);
+			productName = "bluelink-brTests";
+			productReference = 5AA6D9292D435B7700450B6C /* bluelink-brTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AA6D9322D435B7700450B6C /* bluelink-brUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA6D96F2D435B7800450B6C /* Build configuration list for PBXNativeTarget "bluelink-brUITests" */;
+			buildPhases = (
+				5AA6D92F2D435B7700450B6C /* Sources */,
+				5AA6D9302D435B7700450B6C /* Frameworks */,
+				5AA6D9312D435B7700450B6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA6D9352D435B7700450B6C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5AA6D9362D435B7700450B6C /* bluelink-brUITests */,
+			);
+			name = "bluelink-brUITests";
+			packageProductDependencies = (
+			);
+			productName = "bluelink-brUITests";
+			productReference = 5AA6D9332D435B7700450B6C /* bluelink-brUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5AA6D93E2D435B7700450B6C /* bluelink-br Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA6D9652D435B7800450B6C /* Build configuration list for PBXNativeTarget "bluelink-br Watch App" */;
+			buildPhases = (
+				5AA6D93B2D435B7700450B6C /* Sources */,
+				5AA6D93C2D435B7700450B6C /* Frameworks */,
+				5AA6D93D2D435B7700450B6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5AA6D9432D435B7700450B6C /* bluelink-br Watch App */,
+			);
+			name = "bluelink-br Watch App";
+			packageProductDependencies = (
+			);
+			productName = "bluelink-br Watch App";
+			productReference = 5AA6D93F2D435B7700450B6C /* bluelink-br Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AA6D9502D435B7800450B6C /* bluelink-br Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA6D9722D435B7800450B6C /* Build configuration list for PBXNativeTarget "bluelink-br Watch AppTests" */;
+			buildPhases = (
+				5AA6D94D2D435B7800450B6C /* Sources */,
+				5AA6D94E2D435B7800450B6C /* Frameworks */,
+				5AA6D94F2D435B7800450B6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA6D9532D435B7800450B6C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5AA6D9542D435B7800450B6C /* bluelink-br Watch AppTests */,
+			);
+			name = "bluelink-br Watch AppTests";
+			packageProductDependencies = ( 
+			);
+			productName = "bluelink-br Watch AppTests";
+			productReference = 5AA6D9512D435B7800450B6C /* bluelink-br Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AA6D95A2D435B7800450B6C /* bluelink-br Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA6D9752D435B7800450B6C /* Build configuration list for PBXNativeTarget "bluelink-br Watch AppUITests" */;
+			buildPhases = (
+				5AA6D9572D435B7800450B6C /* Sources */,
+				5AA6D9582D435B7800450B6C /* Frameworks */,
+				5AA6D9592D435B7800450B6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA6D95D2D435B7800450B6C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5AA6D95E2D435B7800450B6C /* bluelink-br Watch AppUITests */,
+			);
+			name = "bluelink-br Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "bluelink-br Watch AppUITests";
+			productReference = 5AA6D95B2D435B7800450B6C /* bluelink-br Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AA6D9112D435B7500450B6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					5AA6D9182D435B7500450B6C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					5AA6D9282D435B7700450B6C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5AA6D9182D435B7500450B6C;
+					};
+					5AA6D9322D435B7700450B6C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5AA6D9182D435B7500450B6C;
+					};
+					5AA6D93E2D435B7700450B6C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					5AA6D9502D435B7800450B6C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5AA6D93E2D435B7700450B6C;
+					};
+					5AA6D95A2D435B7800450B6C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5AA6D93E2D435B7700450B6C;
+					};
+				};
+			};
+			buildConfigurationList = 5AA6D9142D435B7500450B6C /* Build configuration list for PBXProject "bluelink-br" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AA6D9102D435B7500450B6C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5AA6D91A2D435B7500450B6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AA6D9182D435B7500450B6C /* bluelink-br */,
+				5AA6D9282D435B7700450B6C /* bluelink-brTests */,
+				5AA6D9322D435B7700450B6C /* bluelink-brUITests */,
+				5AA6D93E2D435B7700450B6C /* bluelink-br Watch App */,
+				5AA6D9502D435B7800450B6C /* bluelink-br Watch AppTests */,
+				5AA6D95A2D435B7800450B6C /* bluelink-br Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AA6D9172D435B7500450B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA6D9272D435B7700450B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA6D9312D435B7700450B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA6D93D2D435B7700450B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA6D94F2D435B7800450B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA6D9592D435B7800450B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AA6D9152D435B7500450B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA6D9252D435B7700450B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA6D92F2D435B7700450B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA6D93B2D435B7700450B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA6D94D2D435B7800450B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA6D9572D435B7800450B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AA6D92B2D435B7700450B6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA6D9182D435B7500450B6C /* bluelink-br */;
+			targetProxy = 5AA6D92A2D435B7700450B6C /* PBXContainerItemProxy */;
+		};
+		5AA6D9352D435B7700450B6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA6D9182D435B7500450B6C /* bluelink-br */;
+			targetProxy = 5AA6D9342D435B7700450B6C /* PBXContainerItemProxy */;
+		};
+		5AA6D9422D435B7700450B6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA6D93E2D435B7700450B6C /* bluelink-br Watch App */;
+			targetProxy = 5AA6D9412D435B7700450B6C /* PBXContainerItemProxy */;
+		};
+		5AA6D9532D435B7800450B6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA6D93E2D435B7700450B6C /* bluelink-br Watch App */;
+			targetProxy = 5AA6D9522D435B7800450B6C /* PBXContainerItemProxy */;
+		};
+		5AA6D95D2D435B7800450B6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA6D93E2D435B7700450B6C /* bluelink-br Watch App */;
+			targetProxy = 5AA6D95C2D435B7800450B6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5AA6D9632D435B7800450B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AA6D9642D435B7800450B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5AA6D9662D435B7800450B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bluelink-br Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "bluelink-br";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "br.com.danielcruz.bluelink-br";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.danielcruz.bluelink-br.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		5AA6D9672D435B7800450B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bluelink-br Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "bluelink-br";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "br.com.danielcruz.bluelink-br";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.danielcruz.bluelink-br.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		5AA6D96A2D435B7800450B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bluelink-br/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "bluelink-br";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.danielcruz.bluelink-br";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AA6D96B2D435B7800450B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bluelink-br/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "bluelink-br";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.danielcruz.bluelink-br";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AA6D96D2D435B7800450B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.danielcruz.bluelink-brTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluelink-br.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bluelink-br";
+			};
+			name = Debug;
+		};
+		5AA6D96E2D435B7800450B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.danielcruz.bluelink-brTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluelink-br.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bluelink-br";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AA6D9702D435B7800450B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.danielcruz.bluelink-brUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bluelink-br";
+			};
+			name = Debug;
+		};
+		5AA6D9712D435B7800450B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.danielcruz.bluelink-brUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bluelink-br";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AA6D9732D435B7800450B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.danielcruz.bluelink-br-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluelink-br Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bluelink-br Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		5AA6D9742D435B7800450B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.danielcruz.bluelink-br-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluelink-br Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bluelink-br Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		5AA6D9762D435B7800450B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.danielcruz.bluelink-br-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "bluelink-br Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		5AA6D9772D435B7800450B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.danielcruz.bluelink-br-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "bluelink-br Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AA6D9142D435B7500450B6C /* Build configuration list for PBXProject "bluelink-br" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA6D9632D435B7800450B6C /* Debug */,
+				5AA6D9642D435B7800450B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA6D9652D435B7800450B6C /* Build configuration list for PBXNativeTarget "bluelink-br Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA6D9662D435B7800450B6C /* Debug */,
+				5AA6D9672D435B7800450B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA6D9692D435B7800450B6C /* Build configuration list for PBXNativeTarget "bluelink-br" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA6D96A2D435B7800450B6C /* Debug */,
+				5AA6D96B2D435B7800450B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA6D96C2D435B7800450B6C /* Build configuration list for PBXNativeTarget "bluelink-brTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA6D96D2D435B7800450B6C /* Debug */,
+				5AA6D96E2D435B7800450B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA6D96F2D435B7800450B6C /* Build configuration list for PBXNativeTarget "bluelink-brUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA6D9702D435B7800450B6C /* Debug */,
+				5AA6D9712D435B7800450B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA6D9722D435B7800450B6C /* Build configuration list for PBXNativeTarget "bluelink-br Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA6D9732D435B7800450B6C /* Debug */,
+				5AA6D9742D435B7800450B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA6D9752D435B7800450B6C /* Build configuration list for PBXNativeTarget "bluelink-br Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA6D9762D435B7800450B6C /* Debug */,
+				5AA6D9772D435B7800450B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AA6D9112D435B7500450B6C /* Project object */;
+}
